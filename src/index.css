@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  font-family: "Media Sans Extended";
+}
+
+p {
+  font-family: "Poppins";
+}

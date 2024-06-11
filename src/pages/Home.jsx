@@ -6,13 +6,13 @@ import FeaturedProjects from "../components/FeaturedProjects";
 
 const Home = () => {
   return (
-    <>
+    <div className="space-y-48">
       <Welcome />
       <GraphicDesigner />
       <Intro />
       <FeaturedProjects />
       <LetsTalk />
-    </>
+    </div>
   );
 };
 
