@@ -122,12 +122,10 @@ const projects = [
       "The resulting logo and brand identity effectively communicate the core values of Aron Architecture Studio, enhancing its presence and recognition in the market. The design has been well-received, contributing to a stronger brand image.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("AronArchitecture"))
+      .filter((key) => key.includes("Aron"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter(
-        (key) => key.includes("AronArchitecture") && key.includes("Cover")
-      )
+      .filter((key) => key.includes("Aron") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "aron-architecture",
   },
@@ -140,12 +138,10 @@ const projects = [
       "The resulting logo and brand identity effectively communicate the high standards and expertise of Christoforos Haritos, elevating his presence in the competitive field of plastic surgery.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("ChristoforosHaritos"))
+      .filter((key) => key.includes("Haritos"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter(
-        (key) => key.includes("ChristoforosHaritos") && key.includes("Cover")
-      )
+      .filter((key) => key.includes("Haritos") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "christoforos-haritos",
   },
@@ -188,10 +184,10 @@ const projects = [
       "This cohesive brand identity successfully communicates One Medical's dedication to providing excellent medical care.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("OneMedical"))
+      .filter((key) => key.includes("On"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter((key) => key.includes("OneMedical") && key.includes("Cover"))
+      .filter((key) => key.includes("On") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "one-medical",
   },
@@ -203,10 +199,10 @@ const projects = [
       "The design employs a sleek black and white color palette, symbolizing power, simplicity, and cleanliness. The minimalist approach ensures that the packaging is both elegant and impactful, with clean lines and strong typography that highlight the brand name and key product information. The contrast between black and white creates a visually arresting look that appeals to fitness enthusiasts and athletes seeking a reliable protein supplement.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Bersek"))
+      .filter((key) => key.includes("Bershek"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter((key) => key.includes("Bersek") && key.includes("Cover"))
+      .filter((key) => key.includes("Bershek") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "bersek",
   },
@@ -233,12 +229,10 @@ const projects = [
       "The design features a modern logo with subtle medical elements, ensuring a clear and approachable look. The color theme revolves around green tones, symbolizing health, renewal, and tranquility. This color choice helps create a calming and reassuring atmosphere, which is essential in a medical setting. The overall design ensures consistency and coherence across all branding materials.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("DrNikiAgathokleous"))
+      .filter((key) => key.includes("Niki"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter(
-        (key) => key.includes("DrNikiAgathokleous") && key.includes("Cover")
-      )
+      .filter((key) => key.includes("Niki") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "dr-niki-agathokleous",
   },
@@ -250,10 +244,10 @@ const projects = [
       "The branding features a clean and minimalist design, utilizing shades of grey to convey a sense of neutrality and elegance. The typography is modern and uncluttered, enhancing readability and ensuring a professional appearance. Aesthetic photography plays a key role in the branding layout, showcasing the products in a sophisticated and clinical context, which underscores the quality and effectiveness of the medical solutions provided by eFillers.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("eFillers"))
+      .filter((key) => key.includes("efillers"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter((key) => key.includes("eFillers") && key.includes("Cover"))
+      .filter((key) => key.includes("efillers") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "efillers",
   },
@@ -280,12 +274,10 @@ const projects = [
       "The packaging features a clean and minimalist layout, with a focus on clarity and simplicity. The design incorporates subtle elements that evoke the rich aroma and flavor of the coffee, using a balanced combination of typography.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("AromaCoffeeRoasters"))
+      .filter((key) => key.includes("Aroma"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter(
-        (key) => key.includes("AromaCoffeeRoasters") && key.includes("Cover")
-      )
+      .filter((key) => key.includes("Aroma") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "aroma-coffee-roasters",
   },
@@ -297,10 +289,10 @@ const projects = [
       "The logo is inspired by the Greek letter '∆', the initial of Dr. Dimopoulos's last name, creatively combined with a smile to symbolize dental care and happiness. This clever integration of elements creates a memorable and friendly logo that stands out in the dental field. The color palette is bright and cheerful, adding to the playful and inviting atmosphere, while still maintaining a clean and professional aesthetic.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("FotisDimopoulos"))
+      .filter((key) => key.includes("Fotis"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter((key) => key.includes("FotisDimopoulos") && key.includes("Cover"))
+      .filter((key) => key.includes("Fotis") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "fotis-dimopoulos",
   },
@@ -312,12 +304,10 @@ const projects = [
       "The color theme revolves around black, grey, and yellow, combining the professionalism and stability of black and grey with the energy and optimism of yellow. The clean and bold typeface used in the branding enhances readability and creates a striking visual impact. The design elements are minimalist yet powerful, ensuring that the brand exudes confidence and competence.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("QubeConstruction"))
+      .filter((key) => key.includes("Qube"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
-      .filter(
-        (key) => key.includes("QubeConstruction") && key.includes("Cover")
-      )
+      .filter((key) => key.includes("Qube") && key.includes("Cover"))
       .map((key) => images[key].default)[0],
     link: "qube-construction",
   },
