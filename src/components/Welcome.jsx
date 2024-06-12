@@ -2,7 +2,7 @@ import welcomeSvg from "../assets/home/welcome.svg";
 
 const Welcome = () => {
   return (
-    <div className="mt-28 m-10 md:m-36 flex justify-center">
+    <div className="mt-28 md:m-36 flex justify-center">
       <img
         src={welcomeSvg}
         className="w-5/6"

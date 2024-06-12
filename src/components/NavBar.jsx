@@ -65,7 +65,7 @@ const NavBar = () => {
       </div>
 
       <div className="hidden md:flex flex-row items-center space-x-8">
-        <ul className="flex flex-row font-semibold text-lg sm:text-sm space-x-12">
+        <ul className="flex flex-row text-lg space-x-12">
           <li className="hover:text-gray">
             <Link to="/">Home</Link>
           </li>
@@ -74,10 +74,7 @@ const NavBar = () => {
           </li>
         </ul>
         <button className="hidden md:block bg-white rounded text-black hover:bg-gray hover:text-white px-4 py-1">
-          <a
-            href="mailto:c.siountas@gmail.com"
-            className="font-semibold text-lg"
-          >
+          <a href="mailto:c.siountas@gmail.com" className="text-lg">
             Contact
           </a>
         </button>

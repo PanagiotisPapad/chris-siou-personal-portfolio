@@ -2,8 +2,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["Sans", "sans-serif"],
+      aspectRatio: {
+        "3/2": "3 / 2",
       },
     },
     colors: {

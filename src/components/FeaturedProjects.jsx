@@ -6,11 +6,7 @@ const FeaturedProjects = () => {
   return (
     <div className="m-10 md:mx-36 md:my-48">
       <div className="">
-        <img
-          src={featured}
-          className="w-2/3 sm:w-1/3 mb-8"
-          alt="Featured projects"
-        />
+        <img src={featured} className="w-1/4 mb-8" alt="Featured projects" />
         <div className="flex flex-wrap -mx-4">
           {featuredProjectsData.map((project) => (
             <div key={project.id} className="w-full md:w-1/2 h-full px-4 mb-1">
@@ -27,7 +23,7 @@ const FeaturedProjects = () => {
           ))}
         </div>
         <Link to="/projects">
-          <p className="text-3xl text-bold">All Projects</p>
+          <p className="text-3xl text-bold hover:text-gray">All Projects</p>
         </Link>
       </div>
     </div>

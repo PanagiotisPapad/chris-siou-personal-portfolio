@@ -18,7 +18,9 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <LetsTalk />
+      <div className="mt-38">
+        <LetsTalk />
+      </div>
     </div>
   );
 };
