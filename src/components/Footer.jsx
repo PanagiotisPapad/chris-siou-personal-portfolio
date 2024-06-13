@@ -8,7 +8,7 @@ const Footer = () => {
       <img
         src={rights}
         className="w-4/5 sm:w-2/4"
-        alt="Chris siountas, all rights reserved"
+        alt="Chris siountas 2024, all rights reserved"
       />
     </div>
   );

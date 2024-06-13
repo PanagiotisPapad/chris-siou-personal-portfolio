@@ -19,12 +19,12 @@ const DetailedProject = () => {
           </p>
         ))}
       </div>
-      <div className="">
+      <div>
         {project.images.map((image, index) => (
           <div key={index} className="mb-12 h-[80%]">
             <img
               src={image}
-              alt={`Image of ${project.name} design`}
+              alt={`Image of Christos Siountas project for ${project.name} company`}
               className="aspect-[3/2] object-cover rounded-lg"
             />
           </div>

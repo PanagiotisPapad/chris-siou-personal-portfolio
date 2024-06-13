@@ -11,7 +11,7 @@ const projects = [
       "The updated brand identity successfully rejuvenates Alutec’s market presence, making the company stand out in a competitive industry. The redesign has been well-received leading to a stronger brand image and increased customer engagement.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Alutec"))
+      .filter((key) => key.includes("Alutec") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Alutec") && key.includes("Cover"))
@@ -28,7 +28,7 @@ const projects = [
       "The final packaging design successfully enhances Trezor’s brand identity, making their hair products instantly recognizable and appealing to a wider audience. The outcome has been met with enthusiastic responses, contributing to increased brand visibility and sales.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Trezor"))
+      .filter((key) => key.includes("Trezor") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Trezor") && key.includes("Cover"))
@@ -44,7 +44,7 @@ const projects = [
       "The new branding successfully encapsulates Glight’s unique offerings, making the company more recognizable and memorable in the event production industry. The updated brand identity has been enthusiastically received, enhancing Glight’s market presence and helping to attract a broader client base.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Glight"))
+      .filter((key) => key.includes("Glight") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Glight") && key.includes("Cover"))
@@ -60,7 +60,7 @@ const projects = [
       "The minimalist approach not only enhances the aesthetic appeal but also aligns with contemporary consumer preferences for simplicity and elegance. The final packaging design has successfully resonated with Superbrew’s target audience, contributing to increased brand recognition and customer loyalty.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Superbrew"))
+      .filter((key) => key.includes("Superbrew") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Superbrew") && key.includes("Cover"))
@@ -76,7 +76,7 @@ const projects = [
       "This approach successfully captures the energetic spirit of Ladose while maintaining a sophisticated and modern aesthetic.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Ladose"))
+      .filter((key) => key.includes("Ladose") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Ladose") && key.includes("Cover"))
@@ -90,7 +90,7 @@ const projects = [
       "Soundstream is a cutting-edge digital platform designed for artists to share and showcase their work. For this project, I crafted a distinctive abstract logo that embodies the dynamic and innovative spirit of the platform. In addition to the logo, I developed a clean typography system that enhances readability and maintains a sleek, professional appearance. The brand identity is anchored in a black and white color scheme, creating a timeless and sophisticated aesthetic. This minimalist approach not only highlights the artwork but also ensures a consistent and cohesive visual experience across all digital and print materials. The result is a powerful and elegant brand identity that resonates with artists and audiences alike.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Soundstream"))
+      .filter((key) => key.includes("Soundstream") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Soundstream") && key.includes("Cover"))
@@ -106,7 +106,7 @@ const projects = [
       "The result is a logo that effectively communicates the core values of Kouparanidis and enhances its brand presence. The elegant design has been positively received, contributing to stronger brand recognition and helping Kouparanidis stand out in a competitive market.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Kouparanidis"))
+      .filter((key) => key.includes("Kouparanidis") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Kouparanidis") && key.includes("Cover"))
@@ -122,7 +122,7 @@ const projects = [
       "The resulting logo and brand identity effectively communicate the core values of Aron Architecture Studio, enhancing its presence and recognition in the market. The design has been well-received, contributing to a stronger brand image.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Aron"))
+      .filter((key) => key.includes("Aron") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Aron") && key.includes("Cover"))
@@ -138,7 +138,7 @@ const projects = [
       "The resulting logo and brand identity effectively communicate the high standards and expertise of Christoforos Haritos, elevating his presence in the competitive field of plastic surgery.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Haritos"))
+      .filter((key) => key.includes("Haritos") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Haritos") && key.includes("Cover"))
@@ -153,7 +153,7 @@ const projects = [
       "The logo and overall design feature a color palette dominated by green, symbolizing growth, vitality, and the lush landscapes that Gardy nurtures. The minimalist approach ensures a clean and modern look, allowing the brand to appear both professional and approachable.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Gardy"))
+      .filter((key) => key.includes("Gardy") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Gardy") && key.includes("Cover"))
@@ -168,7 +168,7 @@ const projects = [
       "The branding features a refined logo and a cohesive color palette, utilizing rich, deep tones that evoke a sense of luxury and warmth. The design elements, including stylish typography and sophisticated patterns, were carefully selected to enhance the premium feel of the brand. The overall aesthetic is clean and polished, ensuring that the brand conveys an image of excellence and attention to detail.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("CafeKafe"))
+      .filter((key) => key.includes("CafeKafe") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("CafeKafe") && key.includes("Cover"))
@@ -184,7 +184,7 @@ const projects = [
       "This cohesive brand identity successfully communicates One Medical's dedication to providing excellent medical care.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("On"))
+      .filter((key) => key.includes("On") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("On") && key.includes("Cover"))
@@ -199,7 +199,7 @@ const projects = [
       "The design employs a sleek black and white color palette, symbolizing power, simplicity, and cleanliness. The minimalist approach ensures that the packaging is both elegant and impactful, with clean lines and strong typography that highlight the brand name and key product information. The contrast between black and white creates a visually arresting look that appeals to fitness enthusiasts and athletes seeking a reliable protein supplement.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Bershek"))
+      .filter((key) => key.includes("Bershek") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Bershek") && key.includes("Cover"))
@@ -214,7 +214,7 @@ const projects = [
       "The overall design is clean and professional, ensuring that the brand communicates reliability and expertise. This cohesive brand identity successfully highlights Carkeys’ specialization in complex automotive electronic systems, enhancing its presence in the market.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Carkeys"))
+      .filter((key) => key.includes("Carkeys") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Carkeys") && key.includes("Cover"))
@@ -229,7 +229,7 @@ const projects = [
       "The design features a modern logo with subtle medical elements, ensuring a clear and approachable look. The color theme revolves around green tones, symbolizing health, renewal, and tranquility. This color choice helps create a calming and reassuring atmosphere, which is essential in a medical setting. The overall design ensures consistency and coherence across all branding materials.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Niki"))
+      .filter((key) => key.includes("Niki") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Niki") && key.includes("Cover"))
@@ -244,7 +244,7 @@ const projects = [
       "The branding features a clean and minimalist design, utilizing shades of grey to convey a sense of neutrality and elegance. The typography is modern and uncluttered, enhancing readability and ensuring a professional appearance. Aesthetic photography plays a key role in the branding layout, showcasing the products in a sophisticated and clinical context, which underscores the quality and effectiveness of the medical solutions provided by eFillers.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("efillers"))
+      .filter((key) => key.includes("efillers") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("efillers") && key.includes("Cover"))
@@ -259,7 +259,7 @@ const projects = [
       "The packaging design complements the logo with its minimalist yet elegant approach, incorporating subtle patterns and textures inspired by nature. This cohesive design effectively communicates the purity and quality of Sur La Terre's herbal teas, making them appealing to health-conscious consumers.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("SurLaTerre"))
+      .filter((key) => key.includes("SurLaTerre") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("SurLaTerre") && key.includes("Cover"))
@@ -274,7 +274,7 @@ const projects = [
       "The packaging features a clean and minimalist layout, with a focus on clarity and simplicity. The design incorporates subtle elements that evoke the rich aroma and flavor of the coffee, using a balanced combination of typography.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Aroma"))
+      .filter((key) => key.includes("Aroma") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Aroma") && key.includes("Cover"))
@@ -289,7 +289,7 @@ const projects = [
       "The logo is inspired by the Greek letter '∆', the initial of Dr. Dimopoulos's last name, creatively combined with a smile to symbolize dental care and happiness. This clever integration of elements creates a memorable and friendly logo that stands out in the dental field. The color palette is bright and cheerful, adding to the playful and inviting atmosphere, while still maintaining a clean and professional aesthetic.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Fotis"))
+      .filter((key) => key.includes("Fotis") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Fotis") && key.includes("Cover"))
@@ -304,7 +304,7 @@ const projects = [
       "The color theme revolves around black, grey, and yellow, combining the professionalism and stability of black and grey with the energy and optimism of yellow. The clean and bold typeface used in the branding enhances readability and creates a striking visual impact. The design elements are minimalist yet powerful, ensuring that the brand exudes confidence and competence.",
     ],
     images: Object.keys(images)
-      .filter((key) => key.includes("Qube"))
+      .filter((key) => key.includes("Qube") && !key.includes("Cover"))
       .map((key) => images[key].default),
     coverImage: Object.keys(images)
       .filter((key) => key.includes("Qube") && key.includes("Cover"))

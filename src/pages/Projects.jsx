@@ -11,14 +11,14 @@ const Projects = () => {
             <Link to={`/project/${project.link}`} className="block">
               <img
                 src={project.coverImage}
-                alt={project.name}
+                alt={`Cover image of Christos Siountas designer project named ${project.name}`}
                 className="aspect-square object-cover rounded-lg hover:opacity-85"
               />
             </Link>
           </div>
         ))}
       </div>
-      <div className="mt-38">
+      <div className="mt-48">
         <LetsTalk />
       </div>
     </div>
