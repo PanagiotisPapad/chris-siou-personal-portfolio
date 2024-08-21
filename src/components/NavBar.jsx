@@ -57,14 +57,16 @@ const NavBar = () => {
   return (
     <div className="flex flex-row justify-between items-center mt-12 mx-10 md:mx-36">
       <div>
-        <p className="font-bold text-lg">
-          <Link to="/">
-            <img src={chrisLogo} className="w-3/5" alt="Chris Siountas logo" />
-          </Link>
-        </p>
+        <Link to="/">
+          <img
+            src={chrisLogo}
+            className="w-3/5"
+            alt="Chris Siountas graphic designers"
+          />
+        </Link>
       </div>
 
-      <div className="hidden md:flex flex-row items-center space-x-8">
+      <div className="hidden sm:flex flex-row items-center space-x-8">
         <ul className="flex flex-row text-lg space-x-12">
           <li className="hover:text-gray">
             <Link to="/">Home</Link>
@@ -73,7 +75,7 @@ const NavBar = () => {
             <Link to="/projects">Projects</Link>
           </li>
         </ul>
-        <button className="hidden md:block bg-white rounded text-black hover:bg-gray hover:text-white px-4 py-1">
+        <button className="hidden sm:block bg-white rounded text-black hover:bg-gray hover:text-white px-4 py-1">
           <a href="mailto:c.siountas@gmail.com" className="text-lg">
             Contact
           </a>

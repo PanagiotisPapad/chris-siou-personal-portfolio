@@ -11,7 +11,9 @@ const DetailedProject = () => {
 
   return (
     <div className="m-10 md:mx-36">
-      <h2 className="text-6xl mt-28 mb-12 text-white">{project.name}</h2>
+      <h2 className="text-4xl sm:text-6xl mt-28 mb-12 text-white">
+        {project.name}
+      </h2>
       <div className="mb-24">
         {project.description.map((paragraph, index) => (
           <p key={index} className="mb-4 text-xl text-gray font-light">
